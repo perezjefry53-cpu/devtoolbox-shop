@@ -536,3 +536,53 @@
 </section>
 
 <!-- === Real Ads Only === -->
+
+    <!-- A-Ads Network -->
+    <section style="max-width:1100px; margin:0 auto; padding:20px 24px; text-align:center;">
+        <div style="background:linear-gradient(135deg, rgba(245,158,11,0.04), rgba(245,158,11,0.01)); border:1px solid rgba(245,158,11,0.1); border-radius:14px; padding:16px;">
+            <div style="font-size:9px; color:#6b7280; font-weight:700; text-transform:uppercase; letter-spacing:2px; margin-bottom:10px;">— Advertising —</div>
+            <iframe data-aa="2439610" src="//acceptable.a-ads.com/2439610/?size=Adaptive" style="border:0; padding:0; width:100%; max-width:728px; height:auto; overflow:hidden; display:block; margin:auto;"></iframe>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <p>After payment, send transaction hash to our Telegram bot for instant delivery.</p>
+        <p style="margin-top:8px;">
+            📲 <a href="https://t.me/Maxi0922_bot">@Maxi0922_bot</a> &nbsp;·&nbsp; 
+            ✉️ quintanaromajorgemario@gmail.com
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 DevToolBox Pro — Built with ✦ for developers</p>
+    </footer>
+
+    <div id="paymentModal" class="modal-overlay" onclick="closeModal(event)">
+        <div class="modal">
+            <h3>✦ <span id="modalProduct">Product</span></h3>
+            <p>Send <strong id="modalPrice">0.00 ETH</strong> to the wallet below</p>
+            <div class="wallet-box">
+                <small>Send to:</small>
+                <code>0x8bEF7ba775bC7657D0819440c262965F9E1218F1</code>
+            </div>
+            <p style="font-size:13px; color:#b8844a; margin-top:12px;">
+                After sending, contact @Maxi0922_bot with your tx hash
+            </p>
+            <button class="btn-close" onclick="document.getElementById('paymentModal').classList.remove('active')">Close</button>
+        </div>
+    </div>
+
+    <script>
+        function showModal(product, price) {
+            document.getElementById('modalProduct').textContent = product;
+            document.getElementById('modalPrice').textContent = price;
+            document.getElementById('paymentModal').classList.add('active');
+        }
+        function closeModal(e) {
+            if (e.target === e.currentTarget) {
+                document.getElementById('paymentModal').classList.remove('active');
+            }
+        }
+    </script>
+</body>
+</html>
