@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.w3.org/1999/xhtml/links/2001/06/09">
+  <url>
+    <loc>https://perezjefry53-cpu.github.io/devtoolbox-shop/tools/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perezjefry53-cpu.github.io/devtoolbox-shop/tools/paste.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://perezjefry53-cpu.github.io/devtoolbox-shop/tools/json-formatter.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://perezjefry53-cpu.github.io/devtoolbox-shop/tools/uuid.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://perezjefry53-cpu.github.io/devtoolbox-shop/tools/base64.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
